@@ -1,0 +1,144 @@
+body{
+	font-size: 16px;
+	background-color: white;
+}
+/*HEADER*/
+#header-nav {
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+	height: 100px;
+
+
+}
+#logo-img {
+	background: url('../images/logo.jpg') no-repeat;
+	width: 174px;
+	height: 85px;
+	margin: 10px 15px 10px 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Brush Script MT', cursive;
+  color: #F1A5CF;
+  font-size: 7vw;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+ 
+  
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #7EDBB0;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.5em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #F1A5CF;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+
+#nav-list .button {
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 12px;
+  border-color: #7EDBB0;
+  margin: 1px;
+  height: 50px;
+  width: 150px;
+}
+.button a { /* Log in or Sign up */
+  text-align: right;
+  padding-bottom: 0;
+}
+.button a:hover .button a: focus{
+	text-decoration: none;
+}
+#logger > a {
+    font-size: 1.5em;
+    
+    
+    width: 20%;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: white;
+    color: #951c49;
+
+  }
+#logger a:hover{
+	font-size: 1.7em;
+}
+/* END HEADER */
+/* MAIN CONTENT*/
+#main-content {
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo-medium.jpg') no-repeat;
+    width: 129px;
+    height: 65px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 7vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
